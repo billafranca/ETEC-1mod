@@ -1,5 +1,4 @@
 import random
-
 def escolher_numero():
     n = int(input("digite um número: "))
     num_aleatorio = random.randint(1, 10)
@@ -10,3 +9,4 @@ def escolher_numero():
         print("Parabéns, você acertou!")
     else:
         print("Tente novamente")
+escolher_numero()
