@@ -1,64 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DoBook</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" type="image/ico" href="images/letrad.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DoBook</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" type="image/ico" href="images/letrad.png" />
 </head>
 <body>
-    <header>
-        
-        <h1 id="principal"><a id="link" href="https://www.google.com/search?gs_ssp=eJzj4tDP1TcwNkkqNmD04k1PzS9KT1XILypPzckBAF0CCAA&q=george+orwell&rlz=1C1GCEU_pt-BRBR1161BR1161&oq=george+&gs_lcrp=EgZjaHJvbWUqCggEEC4YsQMYgAQyBggAEEUYOTIKCAEQLhixAxiABDIKCAIQLhixAxiABDIKCAMQLhixAxiABDIKCAQQLhixAxiABDIKCAUQLhixAxiABDINCAYQLhjUAhixAxiABDIKCAcQLhixAxiABDIKCAgQLhixAxiABDIHCAkQABiPAtIBCDM2MTZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">George Orwell</a>
-            <h2 id="subtitulo">Obras Notáveis</h2>
-        </h1>
-        <div><input id="pesquisar" type="text" name="termoPesquisa" placeholder="Digite o termo de busca: "></div>
-        <img id="logo" src="images/icon.png">
-        <nav>
-            
-            <ul>
-                <li><a href="#">Autores</a></li>
-                <li><a href="#">Home</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="secao1">
-            <h1 id="livros"><b>Obras menos conhecidas</b></h1>
-            <p id="title"><b>Na pior em Paris e londres</b></p>
-            <p id="title2"><b>Um pouco de ar, por favor.</b></p>
-            <center><p id="p1">Clique nas imagems para analisar o prefácio desses clássicos! ⬇️</p></center>
-            <div class="imagens">
-                <a href="#"><img id="londres" src="images/londres.jfif"></a> 
-                <a href="#"><img id="aviao" src="images/aviao.jfif"></a>
-            </div>
-        </section>
-        
-        <section class="secao2">
-            <h1>Você deveria conhecer!</h1>
-            <p id="title3"><b>Revolução dos bichos</b></p>
-            <p id="title4"><b>A planta de ferro</b></p>
-            <center><p id="p2">Clique nas imagems para analisar o prefácio desses clássicos! ⬇️ </p></center>
-            <div class="imagens">
-                <a href="#"><img id="bichos" src="images/bichos.jfif"></a>
-                <a href="#"><img id="planta" src="images/plantas.jfif"></a>
-            </div>
-        </section>
-        
-        <section class="secao3">
-            <h1><b>Clássicos do autor<br></b></h1>
-            <center id="centro"><b>1984</b></center>
-            <center><p id="p3">Clique na imagem para analisar o prefácio desse clássico! ⬇️</p></center>
-            <div class="imagens">
-                <a href="#"><img id="olhos" src="images/eyes.jpeg"></a>
-            </div>
-        </section>
-        
-    </main>
+  <header>
+    <h1 id="principal">
+      <a id="link" href="https://www.google.com/search?q=george+orwell">George Orwell</a>
+      <h2 id="subtitulo">Obras Notáveis</h2>
+    </h1>
+    <div>
+      <input id="pesquisar" type="text" name="termoPesquisa" placeholder="Digite o termo de busca:" />
+    </div>
+    <img id="logo" src="images/icon.png" />
+    <nav>
+      <ul>
+        <li><a href="#">Autores</a></li>
+        <li><a href="#">Home</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <footer>
-        <p>&copy; Andé Petrella & Pedro Braga - All rigths reserved.</p>
-    </footer>
+  <main>
+    
+    <section class="secao1">
+      <h1>Obras menos conhecidas</h1>
+      <center><p>Clique nas imagens para analisar o prefácio desses clássicos! ⬇️</p></center>
+      <div class="imagens">
+        <div class="imagem-com-titulo">
+          <img src="images/londres.jfif" alt="Na pior em Paris e Londres" />
+          <p class="titulo-sobreposto">Na pior em Paris e Londres</p>
+        </div>
+        <div class="imagem-com-titulo">
+          <img id="aviao" src="images/aviao.jfif" alt="Um pouco de ar, por favor." />
+          <p class="titulo-sobreposto">Um pouco de ar, por favor.</p>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="secao2">
+      <h1>Você deveria conhecer!</h1>
+      <center><p>Clique nas imagens para analisar o prefácio desses clássicos! ⬇️</p></center>
+      <div class="imagens">
+        <div class="imagem-com-titulo">
+          <img src="images/bichos.jfif" alt="Revolução dos bichos" />
+          <p class="titulo-sobreposto">Revolução dos bichos</p>
+        </div>
+        <div class="imagem-com-titulo">
+          <img src="images/plantas.jfif" alt="A planta de ferro" />
+          <p class="titulo-sobreposto">A planta de ferro</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao3">
+      <h1>Clássicos do autor</h1>
+      <div id="centro"><b>1984</b></div>
+      <center><p>Clique na imagem para analisar o prefácio desse clássico! ⬇️</p></center>
+      <div class="imagens">
+        <div class="imagem-com-titulo">
+          <img src="images/eyes.jpeg" alt="1984" />
+          <p class="titulo-sobreposto">1984</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; André Petrella & Pedro Braga - All rights reserved.</p>
+  </footer>
 </body>
 </html>
