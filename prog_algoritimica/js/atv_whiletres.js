@@ -11,3 +11,4 @@ do {
 }while (advinha !== numSecreto);
 
 console.log("fez o impossível");
+
